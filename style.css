@@ -10,12 +10,12 @@ body {
   background: linear-gradient(pink, violet);
 }
 
-li{
+li {
   margin-bottom: 10px;
   font-size: 25px;
 }
 
-button{
+button {
   margin-left: 10px;
 }
 
@@ -56,14 +56,14 @@ button{
   box-shadow: 2px 5px 5px #333;
 }
 
-.high{
+.high {
   color: red;
 }
 
-.medium{
+.medium {
   color: #e4d102;
 }
 
-.low{
+.low {
   color: green;
 }

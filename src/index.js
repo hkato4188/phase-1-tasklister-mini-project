@@ -22,7 +22,7 @@ function createNewTask() {
   const form = document.getElementById("tasks");
   node.appendChild(textNode);
   form.appendChild(node);
-  
+
   const deleteButton = document.createElement("button");
   deleteButton.textContent = "🗑️";
   deleteButton.addEventListener("click", () => node.remove());
