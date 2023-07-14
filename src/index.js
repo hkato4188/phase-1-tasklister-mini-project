@@ -10,7 +10,7 @@ const submitButton = document
 
 const createNewToDo = () => {
   createNewTask();
-  createNewDeleteButton();
+  //use color priority to order li
 };
 
 function createNewTask() {
