@@ -10,8 +10,28 @@ body {
   background: linear-gradient(pink, violet);
 }
 
-button {
-  font-size: 7px;
+li{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+button{
+  margin-left: 10px;
+}
+
+#submitButton {
+  outline: none;
+  border: none;
+  margin: 2vw 0 0 15vw;
+}
+
+#submitButton:hover {
+  box-shadow: 0 4px #671c67;
+  top: 2px;
+}
+#submitButton:active {
+  box-shadow: 0 0 #1c6758;
+  top: 6px;
 }
 
 #main-content {
@@ -34,4 +54,16 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+.high{
+  color: red;
+}
+
+.medium{
+  color: #e4d102;
+}
+
+.low{
+  color: green;
 }
